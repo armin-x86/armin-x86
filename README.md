@@ -19,7 +19,8 @@ Topics include:
 
 - [Infrastructure Code as Architecture](docs/infrastructure-as-architecture.md)
 - [Simplicity vs Complexity in Infrastructure Design](docs/simplicity-vs-complexity.md)
-- [Standardization Without Dogma](docs/standardization.md)
+- [Architecture Should Be Understandable](docs/architecture-understandable.md)
+- [Standardization Without Dogma](docs/standardization-without-dogma.md)
 - [Infrastructure as a Platform Product](docs/platform-as-product.md)
 - [Repository Architecture for Infrastructure](docs/repository-architecture.md)
 - [GitOps as an Operating Model](docs/gitops-thinking.md)
@@ -37,3 +38,11 @@ I see it differently.
 > And when designed well, it becomes the **operating system of the platform**.
 
 The documents in this repository explore that idea in depth.
+
+## Principles I Use When Designing Platforms
+1. Simplicity before flexibility
+2. Infrastructure should be readable
+3. Prefer composition over abstraction
+4. Standardization reduces cognitive load
+5. Infrastructure should be operable by others
+6. Platforms should empower teams, not gate them
