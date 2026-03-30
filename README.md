@@ -28,6 +28,12 @@ Topics include:
 
 ---
 
+## Sample repository: centralized modules and org standards
+
+For a **concrete layout** that matches how I think about IaC as architecture—especially **central Terraform module references**, **shared global configuration**, and **guardrails that encode org policy**—see **[companyx-cloud](https://github.com/armin-x86/companyx-cloud/tree/main)** on GitHub. It is a demo AWS stack (Terraform + Ansible) with wrapper-style modules, environment config modules, Terraform assertions (for example VPC/subnet validation), VPC endpoints, SSM-driven operations, and repo tooling (pre-commit, Trivy, detect-secrets) to keep changes consistent and reviewable.
+
+---
+
 ## Core idea
 
 Infrastructure as Code is often treated as automation.
